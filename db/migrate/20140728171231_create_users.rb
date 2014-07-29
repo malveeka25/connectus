@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string "last_name", :limit => 16
       t.string "hashed_password", :limit => 16
       t.string "linked_in", :limit => 50
-      t.integer "age", :limit => 5
+      t.date "date_of_birth", :limit => 5
       t.string "gender", :limit => 13
       t.text "about_me"
       t.string "contact_no", :limit => 10
